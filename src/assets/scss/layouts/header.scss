@@ -1,0 +1,42 @@
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    color:black;
+
+    height: 10vh;
+    position: sticky;
+    top:0;
+  }
+  .header__logo {
+    justify-self: center;
+    height: 20vh;
+    width: 10%; 
+    min-width: 100px;
+
+
+    margin-left: 40px;
+  }
+  
+  nav {
+    height: fit-content;
+    margin-right: 40px;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  .menu-icon {
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-icon:focus,
+  .menu-icon:hover {
+    outline: none;
+  }
