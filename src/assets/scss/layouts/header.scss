@@ -5,18 +5,15 @@
     background-repeat: no-repeat;
     color:black;
 
-    height: 10vh;
+    height: 20vh;
     position: sticky;
     top:0;
   }
   .header__logo {
-    justify-self: center;
     height: 20vh;
     width: 10%; 
     min-width: 100px;
 
-
-    margin-left: 40px;
   }
   
   nav {
@@ -28,15 +25,3 @@
     padding: 10px;
   }
   
-  .menu-icon {
-    background-color: transparent;
-    color: #fff;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .menu-icon:focus,
-  .menu-icon:hover {
-    outline: none;
-  }

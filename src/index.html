@@ -8,6 +8,7 @@
 
 <body>
   <header>
+    <img src="./assets/images/logo.png" class="header__logo" alt="logo de Biking Cádiz Videogame"/>
     <nav>
       <ul class="menu">
         <li><a href="#">Inicio</a></li>
@@ -15,17 +16,21 @@
         <li><a href="#">Contacto</a></li>
       </ul>
     </nav>
-
-    <section id="audio">
-      <p>Lolo's mood</p>
-      <audio src="./assets/multimedia/Marc Ferry - A Jam for you.mp3" controls>
-      </audio>
-    </section>
-
   </header>
-  
-  <img src="./assets/images/logo.png" class="header__logo" alt="logo de Biking Cádiz Videogame"/>
-    <section id="video">
+
+  <section>
+    <picture>
+      <source media="(max-width: 799px)" srcset="./assets/images/cadiz-mobile.jpg">
+      <source media="(min-width: 800px)" srcset="./assets/images/cadiz-desktop.jpg">
+      <img src="./assets/images/cadiz-desktop.jpg" alt="">
+    </picture>
+  </section>
+  <section class="audio">
+    <audio src="./assets/multimedia/Marc Ferry - A Jam for you.mp3" controls>
+    </audio>
+  </section>
+
+    <section class="video">
       <video src="./assets/multimedia/production ID_4787244.mp4" autoplay controls>
       </video>
     </section>
