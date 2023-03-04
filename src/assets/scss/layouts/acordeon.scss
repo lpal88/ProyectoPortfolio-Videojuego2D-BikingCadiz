@@ -1,0 +1,38 @@
+.acordeon{
+    width:90%;
+    max-width: 20rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.acordeon .bloque{
+    margin:  1rem;
+    padding:0.2rem;
+    background-color: white;
+    text-align: center;
+
+
+}
+.acordeon .h2{
+    margin: 1rem;
+    padding:1rem;
+    cursor: pointer;
+
+
+}
+.acordeon .contenido{
+    height: 0;
+    padding:0rem;
+    overflow: hidden;
+    transition: all .5s ease;
+
+}
+.acordeon .bloque.activo .contenido{
+    height: 4rem;
+}
+
+.acordeon__img {
+    width: 100%;
+    height: 30vh;
+}

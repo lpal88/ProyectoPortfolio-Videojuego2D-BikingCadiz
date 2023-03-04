@@ -36,6 +36,43 @@ li {
   list-style: none;
 }
 
+.acordeon {
+  width: 90%;
+  max-width: 20rem;
+  flex-direction: row;
+  padding: 2rem;
+  display: flex;
+}
+
+.acordeon .bloque {
+  text-align: center;
+  background-color: #fff;
+  margin: 1rem;
+  padding: .2rem;
+}
+
+.acordeon .h2 {
+  cursor: pointer;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.acordeon .contenido {
+  height: 0;
+  padding: 0;
+  transition: all .5s;
+  overflow: hidden;
+}
+
+.acordeon .bloque.activo .contenido {
+  height: 4rem;
+}
+
+.acordeon__img {
+  width: 100%;
+  height: 30vh;
+}
+
 video {
   height: 30vh;
   width: 20%;
@@ -47,12 +84,13 @@ video {
 
 .audio {
   width: 60%;
-  margin: 0 auto;
+  margin: 30px 200px;
 }
 
 audio {
   width: 60%;
   height: 5vh;
+  z-index: -1;
   background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
   border-radius: 40px;
   padding: 10px;
