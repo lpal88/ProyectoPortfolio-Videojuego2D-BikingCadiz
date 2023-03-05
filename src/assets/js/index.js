@@ -1,5 +1,3 @@
-
-
 'use strict'
 
 const bloque    = document.querySelectorAll('.bloque')

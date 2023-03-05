@@ -105,4 +105,49 @@ picture {
   display: flex;
 }
 
+.tabs {
+  width: 90%;
+  max-width: 120em;
+  padding: 1em;
+}
+
+.tabs .ul {
+  width: 100%;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.tabs .li {
+  cursor: pointer;
+  margin: 0 2em 0 0;
+  padding: 1em;
+  transition: all .5s;
+}
+
+.tabs .li.activo {
+  color: #fff;
+  background-color: #87cefa;
+}
+
+.tabs .subcontenedor {
+  min-height: 10vh;
+  position: relative;
+}
+
+.tabs .caja {
+  opacity: 0;
+  margin: 1em;
+  padding: 1em;
+  transition: all .5s;
+  position: absolute;
+  transform: translateY(50%);
+}
+
+.tabs .caja.activo {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
 /*# sourceMappingURL=index.4717fcfd.css.map */
