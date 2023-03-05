@@ -1,6 +1,7 @@
 header {
   color: #000;
   height: 20vh;
+  z-index: 10;
   background-repeat: no-repeat;
   justify-content: space-around;
   align-items: center;
@@ -39,14 +40,15 @@ li {
 .acordeon {
   width: 90%;
   max-width: 20rem;
-  flex-direction: row;
+  flex-wrap: wrap;
   padding: 2rem;
   display: flex;
 }
 
-.acordeon .bloque {
+.bloque {
+  width: 25%;
   text-align: center;
-  background-color: #fff;
+  background: #fff;
   margin: 1rem;
   padding: .2rem;
 }
@@ -69,8 +71,10 @@ li {
 }
 
 .acordeon__img {
-  width: 100%;
+  width: 180px;
   height: 30vh;
+  background-color: #fff;
+  padding: 10px;
 }
 
 video {
@@ -84,13 +88,13 @@ video {
 
 .audio {
   width: 60%;
+  z-index: -1;
   margin: 30px 200px;
 }
 
 audio {
   width: 60%;
   height: 5vh;
-  z-index: -1;
   background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
   border-radius: 40px;
   padding: 10px;
