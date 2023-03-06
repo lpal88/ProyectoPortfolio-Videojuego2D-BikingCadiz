@@ -1,6 +1,6 @@
 "use strict";
 const bloque = document.querySelectorAll(".bloque");
-const h2 = document.querySelectorAll(".h2");
+const h2 = document.querySelectorAll(".acordeon__img");
 // Cuando CLICK en h2,
 // QUITAR la clase activo de TODOS los bloque
 // Vamos a añadir la clase activo al BLOQUE con la POSICION del h2

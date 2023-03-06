@@ -1,3 +1,9 @@
+@font-face { 
+  font-family: 'south park'; // para títulos
+  src:  url("../fonts/south park.ttf");
+  font-weight: bold;
+} 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +12,27 @@
   text-decoration: none;
   color: white;
   background-color: black;
+  font-family: 'south park';
+  @media (max-width: 720px) {
+    font-size: 3vw;
+    transition: $transition-letter;
+}
   }
+
+  p {
+    font-family: 'Indie Flower', cursive;
+  }
+
+  h2 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-size: 3rem;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+
+
+  }
+
 
 
 

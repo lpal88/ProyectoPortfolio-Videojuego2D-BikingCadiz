@@ -1,25 +1,20 @@
 
 .tabs{
     width: 90%;
-    max-width: 120em;
-    // background-color: lightgray;
-    padding:1em;
+    padding: 0 0 0 5em;
+    margin: 0 auto;
 
 }
 .tabs .ul{
     width:100%;
-    // background-color: lightblue;
-
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
 }
 .tabs .li{
-    // background-color: lightgreen;
     padding: 1em;
     margin:0 2em 0 0;
-
     transition: all .5s ease;
     cursor: pointer;
 }
@@ -29,15 +24,14 @@
 }
 .tabs .subcontenedor{
     min-height: 10vh;
-    // background-color: lightsalmon;
+    width: 100%;
     position: relative;
 }
 .tabs .caja{
-    // background-color: lightseagreen;
-    margin:1em;
+    margin: 0 auto;
     padding: 1em;
     position: absolute;
-
+    width: 100%;
     opacity: 0;
     transform: translateY(50%);
     transition: all .5s ease;
@@ -45,4 +39,8 @@
 .tabs .caja.activo{
     opacity: 1;
     transform: translateY(0%);
+}
+
+.tabs img {
+    width: 100%;
 }

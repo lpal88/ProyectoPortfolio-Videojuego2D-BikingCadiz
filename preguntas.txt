@@ -1,11 +1,7 @@
-- contenedor acordeon ¿Por qué no consigo manipular la anchura de su contenido?
-- reducir tamaño de video
-- dirección de arte: atributo srcset no pilla la url
-- el atributo autoplay (video) no funciona
 
 
 TODO:
 - documentar
 - footer
-- anclas-nav
-- acordeon
+- redimensionar img mobile y añadir una intermedia
+- añadir otro tamaño a personajes y escenarios

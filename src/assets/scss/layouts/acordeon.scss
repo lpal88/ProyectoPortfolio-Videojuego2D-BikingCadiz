@@ -1,23 +1,22 @@
 .acordeon{
     width:90%;
-    max-width: 20rem;
-    padding: 2rem;
+    padding: 1rem;
     display:flex;
     flex-wrap: wrap;
+    margin: 0 auto;
   
 }
 
 .bloque{
-    width: 25%;
-    margin:  1rem;
+    width: 20%;
+    margin:  2rem;
     padding:0.2rem;
     background: white;
     text-align: center;
 
 }
 
-.acordeon .h2{
-    margin: 1rem;
+.acordeon img{
     padding:1rem;
     cursor: pointer;
 }
@@ -34,8 +33,12 @@
 }
 
 .acordeon__img {
-    width: 180px;
+    width: 100%;
     height: 30vh;
-    background-color: white;
-    padding: 10px;
+    background-color: black;
+
+}
+
+.acordeon p {
+    padding:10px;
 }
