@@ -1,4 +1,6 @@
 'use strict'
+/* ACORDEÓN */
+/* Visto en: https://github.com/eduardofierropro/Acordeon-en-HTML-CSS-y-JS-para-Youtube */
 
 const bloque    = document.querySelectorAll('.bloque')
 const h2        = document.querySelectorAll('.acordeon__img')

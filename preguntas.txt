@@ -1,7 +1,0 @@
-
-
-TODO:
-- documentar
-- footer
-- redimensionar img mobile y añadir una intermedia
-- añadir otro tamaño a personajes y escenarios

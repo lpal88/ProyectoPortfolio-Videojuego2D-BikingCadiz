@@ -1,4 +1,6 @@
 'use strict'
+/* TABS */
+/* Visto en: https://github.com/eduardofierropro/Tabs-en-HTML-CSS-y-JS */
 
 const li        = document.querySelectorAll('.li')
 const caja    = document.querySelectorAll('.caja')

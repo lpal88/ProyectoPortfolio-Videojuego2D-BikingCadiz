@@ -13,6 +13,7 @@
   color: white;
   background-color: black;
   font-family: 'south park';
+  /* Textos responsive: */
   @media (max-width: 720px) {
     font-size: 3vw;
     transition: $transition-letter;
