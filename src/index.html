@@ -12,70 +12,75 @@
 
 <body>
   <header>
-    <img src="./assets/images/logo.png" class="header__logo" alt="logo de Biking Cádiz Videogame"/>
+    <img src="./assets/images/logo.svg" class="header__logo" alt="logo de Biking Cádiz Videogame"/>
     <nav>
       <ul class="menu">
         <li><a href="#personajes">Personajes</a></li>
-        <li><a href="#escenarios">Escenarios</a></li>
+        <li><a href="#escenarios">Niveles</a></li>
       </ul>
     </nav>
   </header>
   <main>
-  <section>
-    <picture>
-      <source media="(max-width: 799px)" srcset="./assets/images/cadiz-mobile-300.jpg">
-      <source media="(min-width: 799px) and (max-width: 1000px)" srcset="./assets/images/cadiz-tablet.jpg">
-      <source media="(min-width: 1000px)" srcset="./assets/images/cadiz-desktop.jpg">
-      <img src="./assets/images/cadiz-desktop.jpg" alt="">
-    </picture>
-  </section>
-  <section class="audio">
-    <audio src="./assets/multimedia/Marc Ferry - A Jam for you.mp3" controls>
-    </audio>
-  </section>
+      
+    <section>
+      <!-- Dirección de arte: -->
+      <picture> 
+        <source media="(max-width: 799px)" srcset="./assets/images/cadiz-mobile-300.jpg">
+        <source media="(min-width: 799px) and (max-width: 1000px)" srcset="./assets/images/cadiz-tablet.jpg">
+        <source media="(min-width: 1000px)" srcset="./assets/images/cadiz-desktop.jpg">
+        <img src="./assets/images/cadiz-desktop.jpg" alt="">
+      </picture>
+    </section>
 
-  <section class="video">
-    <video src="./assets/multimedia/production_ID_4787244_AdobeExpress.mp4" autoplay muted loop>
-    </video>
-  </section>
-  <h2><a name="personajes" id="personajes">Personajes</a></h2>
-  <section class="acordeon">
-    <div class="bloque activo">
-      <img class="acordeon__img" src="./assets/images/lorena.png" alt="Personaje Principal en bici">
-      <p class="contenido">Lo,debe llegar a su destino sin causar ningún daño a 
-        los peatones. 
-      </p>
-    </div>
-    <div class="bloque">
-      <img class="acordeon__img" src="./assets/images/personaje.png" alt="Personaje secundario tipo peatón">
-      <p class="contenido">Carol puede quedarse inmóvil en el carril bici observando aves urbanas.</p>
-    </div>
-    <div class="bloque">
-      <img class="acordeon__img" src="./assets/images/personajeSimón.png" alt="Personaje secundario tipo peatón">
-      <p class="contenido">Simón saltará al carril bici cuando menos lo esperes.</p>
-    </div>
-    <div class="bloque">
-      <img class="acordeon__img" src="./assets/images/personaje-jose.png" alt="Personaje secundario tipo peatón">
-      <p class="contenido">J.A camina distraído con su dispositivo móvil</p>
-    </div>
-  </section>
+    <section class="audio">
+      <audio preload="none" controls> 
+        <source src="./assets/multimedia/Marc Ferry - A Jam for you.mp3" />
+        <source src="./assets/multimedia/Marc Ferry - A Jam for you.aac" />
+      </audio>
+    </section>
 
-  <h2><a name="escenarios" id="escenarios">Niveles</a></h2>
-  <section class="tabs">
-    <ul class="ul">
-        <li class="li activo">Nivel 1</li>
-        <li class="li">Nivel 2</li>
-        <li class="li">Nivel 3</li>
-        <li class="li">Nivel 4</li>
-    </ul>
+    <section class="video">
+      <video src="./assets/multimedia/production_ID_4787244_AdobeExpress.mp4" autoplay muted loop>
+      </video>
+    </section>
+    <h2><a name="personajes" id="personajes">Personajes</a></h2>
+    <section class="acordeon">
+      <div class="bloque activo">
+        <img class="acordeon__img" src="./assets/images/lorena.png" alt="Personaje Principal en bici">
+        <p class="contenido">Lo, debe llegar a su destino sin causar ningún daño a 
+          los peatones. 
+        </p>
+      </div>
+      <div class="bloque">
+        <img class="acordeon__img" src="./assets/images/personaje.png" alt="Personaje secundario tipo peatón">
+        <p class="contenido">Carol puede quedarse inmóvil en el carril bici observando aves urbanas.</p>
+      </div>
+      <div class="bloque">
+        <img class="acordeon__img" src="./assets/images/personajeSimón.png" alt="Personaje secundario tipo peatón">
+        <p class="contenido">Simón saltará al carril bici cuando menos lo esperes.</p>
+      </div>
+      <div class="bloque">
+        <img class="acordeon__img" src="./assets/images/personaje-jose.png" alt="Personaje secundario tipo peatón">
+        <p class="contenido">J.A camina distraído con su dispositivo móvil</p>
+      </div>
+    </section>
 
-    <div class="subcontenedor">
-        <div class="caja activo"><img src="./assets/images/escenario1.png" alt=""></div>
-        <div class="caja"><img src="./assets/images/escenario2.png" alt=""></div>
-        <div class="caja"><img src="./assets/images/escenario3.jpg" alt=""></div>
-        <div class="caja"><img src="./assets/images/escenario4.png" alt=""></div>
-    </div>
-  </section>
+    <h2><a name="escenarios" id="escenarios">Niveles</a></h2>
+    <section class="tabs">
+      <ul class="ul">
+          <li class="li activo">Nivel 1</li>
+          <li class="li">Nivel 2</li>
+          <li class="li">Nivel 3</li>
+          <li class="li">Nivel 4</li>
+      </ul>
+      <div class="subcontenedor">
+          <div class="caja activo"><img src="./assets/images/escenario1.png" alt=""></div>
+          <div class="caja"><img src="./assets/images/escenario2.png" alt=""></div>
+          <div class="caja"><img src="./assets/images/escenario3.jpg" alt=""></div>
+          <div class="caja"><img src="./assets/images/escenario4.png" alt=""></div>
+      </div>
+    </section>
+
   </main>
   <footer>
 
